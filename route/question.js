@@ -7,6 +7,14 @@ var router = express.Router();
  *                                                                                                         			*
  *******************************************************************************************************************/
 router.get('/', (req, res) => {
+
+    return res.json({ success: 1, message: 'successfully', data: 'Welcome Tushar' });
+});
+
+
+
+
+router.get('/testing', (req, res) => {
     conn.query('SELECT * FROM questions', (error, result) => {
         if (error) {
             return res.json({ success: 1, message: 'Error in Query ' + error });
