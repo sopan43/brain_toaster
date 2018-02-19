@@ -3,6 +3,6 @@ Version :
 Author  : Sopan Mittal
 email   : sopanmittal43@gmail.com
 
-baseUrl=http://139.59.18.239:8002/brain_toster/
-image path= http://139.59.18.239/brain_toster/uploads/
-timthump path= http://139.59.18.239/brain_toster/timthumb.php?src=http://139.59.18.239/brain_toster/uploads/imagename
+baseUrl=https://brain-toaster.herokuapp.com/brain_toster/
+image path= https://brain-toaster.herokuapp.com/uploads/
+timthump path= https://brain-toaster.herokuapp.com/brain_toster/timthumb.php?src=https://brain-toaster.herokuapp.com/brain_toster/uploads/imagename
