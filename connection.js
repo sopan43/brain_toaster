@@ -4,9 +4,9 @@ var connection = mysql.createConnection({
     user: 'bedbc9cc7d11fa',
     password: '0a93b38cd911cfa',
     database: 'heroku_1141cf6ca7b533b'
-    //user : 'root', 
-    //  password : 'root123',  
-    //database: 'brain_toaster',
+    // user: 'root',
+    // password: 'root123',
+    // database: 'brain_toaster',
     // host: "127.0.0.1"
 
 });

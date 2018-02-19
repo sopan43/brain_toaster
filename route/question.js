@@ -7,7 +7,17 @@ var router = express.Router();
  *                                                                                                         			*
  *******************************************************************************************************************/
 router.get('/', (req, res) => {
-    return res.json({ success: 1, message: 'successfully', data: ' Welcome Tushar' });
+    conn.query('SELECT * FROM questions', (error, result) => {
+        if (error) {
+            return res.json({ success: 1, message: 'Error in Query ' + error });
+        } else {
+            return res.json({ success: 1, message: 'successfully', data: result });
+        }
+    });
+
+
 });
+
+
 
 module.exports = router;
